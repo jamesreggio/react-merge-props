@@ -22,9 +22,10 @@
   },
   "homepage": "https://github.com/jamesreggio/react-merge-props",
   "bugs": "https://github.com/jamesreggio/react-merge-props/issues",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "rollup src/index.js --o lib/index.js --f cjs"
   },
   "dependencies": {
     "shallow-equals": "^1.0.0",
@@ -39,6 +40,7 @@
     "babel-jest": "^22.4.3",
     "jest": "^22.4.3",
     "react": "^16.2.0",
-    "react-test-renderer": "^16.2.0"
+    "react-test-renderer": "^16.2.0",
+    "rollup": "^0.57.1"
   }
 }
