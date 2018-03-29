@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`assertExclusive throws always 1`] = `"Cannot merge prop due to conflicting values"`;
+
+exports[`mergeBooleans throws on invalid operations 1`] = `"Unexpected boolean operator: ^"`;
+
+exports[`mergeFunctions throws on non-function props 1`] = `"Cannot merge non-function prop value"`;
+
+exports[`mergeFunctions throws on non-function props 2`] = `"Cannot merge non-function prop value"`;

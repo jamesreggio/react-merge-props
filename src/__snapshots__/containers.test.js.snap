@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`withTransformedRoot throws on non-component input 1`] = `"withTransformedRoot can only decorate a React component"`;
+
+exports[`withTransformedRoot throws on non-function transform 1`] = `"transform must be a function"`;
+
+exports[`withTransformedRoot throws on non-function transform 2`] = `"transform must be a function"`;

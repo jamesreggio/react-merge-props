@@ -1,0 +1,44 @@
+{
+  "name": "react-merge-props",
+  "version": "0.0.1",
+  "description": "Utility to merge props passed to a React component",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react native",
+    "props",
+    "merge props",
+    "merge styles",
+    "merge callbacks"
+  ],
+  "author": {
+    "name": "James Reggio",
+    "email": "james.reggio@gmail.com",
+    "url": "http://regg.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesreggio/react-merge-props.git"
+  },
+  "homepage": "https://github.com/jamesreggio/react-merge-props",
+  "bugs": "https://github.com/jamesreggio/react-merge-props/issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "shallow-equals": "^1.0.0",
+    "style-equal": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.42",
+    "@babel/preset-env": "^7.0.0-beta.42",
+    "@babel/preset-react": "^7.0.0-beta.42",
+    "@babel/preset-stage-1": "^7.0.0-beta.42",
+    "babel-core": "^7.0.0-0",
+    "babel-jest": "^22.4.3",
+    "jest": "^22.4.3",
+    "react": "^16.2.0",
+    "react-test-renderer": "^16.2.0"
+  }
+}

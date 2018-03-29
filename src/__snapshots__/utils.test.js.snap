@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`invariant throws when the condition is falsey 1`] = `"Error message"`;
