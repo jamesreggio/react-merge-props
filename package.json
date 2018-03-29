@@ -1,6 +1,6 @@
 {
   "name": "react-merge-props",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Utility to merge props passed to a React component",
   "license": "MIT",
   "keywords": [
