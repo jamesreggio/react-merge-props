@@ -1,4 +1,5 @@
 module.exports = {
+  ignore: ['**/*.test.js'],
   presets: [
     [
       require('@babel/preset-env'),
