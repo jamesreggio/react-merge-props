@@ -1,0 +1,65 @@
+{
+  "name": "react-merge-props",
+  "version": "0.3.2",
+  "description": "Utility to merge props passed to a React component",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react native",
+    "props",
+    "merge props",
+    "merge styles",
+    "merge callbacks"
+  ],
+  "author": {
+    "name": "James Reggio",
+    "email": "james.reggio@gmail.com",
+    "url": "http://regg.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamesreggio/react-merge-props.git"
+  },
+  "homepage": "https://github.com/jamesreggio/react-merge-props",
+  "bugs": "https://github.com/jamesreggio/react-merge-props/issues",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel --config-file ./babel.config.js --out-dir . ./src",
+    "release": "./release.sh",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "./src/**/*.js": [
+      "pretty-quick",
+      "eslint --config ./eslint.config.js"
+    ]
+  },
+  "dependencies": {
+    "shallow-equals": "^1.0.0",
+    "style-equal": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.51",
+    "@babel/core": "^7.0.0-beta.51",
+    "@babel/preset-env": "^7.0.0-beta.51",
+    "@babel/preset-react": "^7.0.0-beta.51",
+    "@babel/preset-stage-1": "^7.0.0-beta.51",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^8.2.2",
+    "babel-jest": "^23.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "husky": "^0.14.3",
+    "jest": "^23.1.0",
+    "lint-staged": "^7.0.3",
+    "prettier": "^1.11.1",
+    "pretty-quick": "^1.4.1",
+    "react": "^16.3.2",
+    "react-test-renderer": "^16.3.2"
+  }
+}
