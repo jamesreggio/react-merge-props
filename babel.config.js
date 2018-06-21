@@ -5,9 +5,15 @@ module.exports = {
       require('@babel/preset-env'),
       {
         targets: {
+          // For React Native.
           ios: '10',
+
+          // For React server-side rendering.
           node: 'current',
-          browsers: ['>0.25%', 'not ie 11', 'not op_mini all'],
+
+          // For support of evergreens, IE11, and Safari 9.1 onward.
+          // http://browserl.ist/?q=cover+95%25+in+US
+          browsers: ['cover 95% in US'],
         },
       },
     ],
